@@ -1,0 +1,65 @@
+/*
+Theme Name: Perfect Portfolio Child
+Theme URI: https://raratheme.com/wordpress-themes/perfect-portfolio/
+Template: perfect-portfolio
+Author: Rara Theme
+Author URI: https://raratheme.com/
+Description: Perfect Portfolio is a clean, elegant and responsive WordPress theme dedicated for portfolio and blogs. Perfect Portfolio theme has wide list of customizable features including front page customizable sections with customizer api and widgets, and many more options. It comes with cross-browser compatibility, mobile friendly design and responsive features.
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,e-commerce,portfolio
+Version: 1.0.0.1529570971
+Updated: 2018-06-21 08:49:31
+
+*/
+
+a,
+a:hover,
+.main-navigation .nav-menu li:hover > a,
+.main-navigation .nav-menu li.current-menu-item > a,
+.main-navigation .nav-menu li.current_page_item > a,
+.block-title a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.widget a:hover {
+  color: #d30320;
+}
+
+a.page-numbers:hover,
+span.page-numbers.current {
+  background: #d30320;
+  border-color: #d30320;
+}
+
+.header-r span.fa.fa-bars {
+  transition: background .3s ease;
+}
+
+/* Change styles of pre */
+html body pre,
+html body code {
+  padding: 6px !important;
+  font-size: 15px !important;
+  background-color: #eee;
+  border: 0 !important;
+  white-space: pre-wrap;
+}
+
+/* Change widget styles */
+.widget-title {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.widget a {
+  display: block;
+  font-size: 15px;
+  line-height: 1.618;
+}
+
+.widget li + li {
+  margin-top: 8px;
+}
+
+/* Fix SUMO button */
+.s.u.m.o.me button {
+  letter-spacing: normal;
+}
