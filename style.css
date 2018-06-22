@@ -11,6 +11,7 @@ Updated: 2018-06-21 08:49:31
 
 */
 
+/* Changes for brand colors */
 a,
 a:hover,
 .main-navigation .nav-menu li:hover > a,
@@ -39,13 +40,18 @@ span.page-numbers.current {
 }
 
 /* Change styles of pre */
-html body pre,
+html body p pre,
+html body p code,
 html body code {
-  padding: 6px !important;
   font-size: 15px !important;
   background-color: #eee;
   border: 0 !important;
   white-space: pre-wrap;
+}
+
+html body p pre,
+html body p code {
+  padding: 6px !important;
 }
 
 /* Change widget styles */
@@ -72,4 +78,21 @@ html body code {
 /* Remove secondary scroll-to-top button */
 #wpfront-scroll-top-container {
   display: none !important;
+}
+
+/* Styles for crypto QR codes */
+.crypto-qr-image {
+  max-width: 150px;
+}
+
+/* Change for Table of Contents */
+.toc_list a {
+  display: block;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Change styles for posts */
+.single-post article.post {
+  border: 0;
 }
