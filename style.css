@@ -24,8 +24,13 @@ a:hover,
 }
 
 a.page-numbers:hover,
-span.page-numbers.current {
+span.page-numbers.current,
+.back-to-top:hover {
   background: #d30320;
+}
+
+a.page-numbers:hover,
+span.page-numbers.current {
   border-color: #d30320;
 }
 
@@ -51,7 +56,7 @@ html body code {
 
 .widget a {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.618;
 }
 
@@ -62,4 +67,9 @@ html body code {
 /* Fix SUMO button */
 .s.u.m.o.me button {
   letter-spacing: normal;
+}
+
+/* Remove secondary scroll-to-top button */
+#wpfront-scroll-top-container {
+  display: none !important;
 }
