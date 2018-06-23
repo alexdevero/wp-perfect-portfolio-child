@@ -96,3 +96,21 @@ html body p code {
 .single-post article.post {
   border: 0;
 }
+
+/* Change style of website branding - blog description */
+.site-branding .site-title,
+.site-branding .site-description {
+  letter-spacing: 1px;
+}
+
+.site-branding .site-title {
+  font-size: 26px;
+}
+
+.site-branding .site-description {
+  font-size: 16px;
+}
+
+.site-branding .site-title + .site-description {
+  margin-top: 8px;
+}
