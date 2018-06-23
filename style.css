@@ -97,6 +97,12 @@ html body p code {
   border: 0;
 }
 
+.entry-meta .posted-on,
+.entry-meta .byline {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
 /* Change style of website branding - blog description */
 .site-branding .site-title,
 .site-branding .site-description {
