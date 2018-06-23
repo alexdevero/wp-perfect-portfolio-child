@@ -13,6 +13,10 @@ Updated: 2018-06-21 08:49:31
 
 /* Changes for brand colors */
 a,
+.jp-relatedposts-items .jp-relatedposts-post-a {
+  color: #1c1b1b;
+}
+
 a:hover,
 .main-navigation .nav-menu li:hover > a,
 .main-navigation .nav-menu li.current-menu-item > a,
@@ -20,12 +24,23 @@ a:hover,
 .block-title a:hover,
 .entry-title a:hover,
 .entry-meta a:hover,
-.widget a:hover {
+.entry-content a,
+.jp-relatedposts-items .jp-relatedposts-post:hover a,
+.jp-relatedposts-items .jp-relatedposts-post-a:hover,
+.nav-links .nav-holder:hover a,
+.widget a:hover,
+.bottom-footer a:hover {
   color: #d30320;
 }
 
+.entry-content a:hover {
+  text-decoration: underline;
+}
+
+.header-r span.fa.fa-bars:hover,
 a.page-numbers:hover,
 span.page-numbers.current,
+.tags a:hover,
 .back-to-top:hover {
   background: #d30320;
 }
@@ -36,7 +51,11 @@ span.page-numbers.current {
 }
 
 .header-r span.fa.fa-bars {
-  transition: background .3s ease;
+  transition: all .3s ease;
+}
+
+.header-r span.fa.fa-bars:hover {
+  color: #fff;
 }
 
 /* Change styles of pre */
@@ -119,4 +138,9 @@ html body p code {
 
 .site-branding .site-title + .site-description {
   margin-top: 8px;
+}
+
+/* Change styles of Akismet privacy notice */
+.akismet_comment_form_privacy_notice {
+  font-size: 14px;
 }
