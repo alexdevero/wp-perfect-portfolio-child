@@ -41,7 +41,11 @@ a:hover,
 a.page-numbers:hover,
 span.page-numbers.current,
 .tags a:hover,
-.back-to-top:hover {
+.back-to-top:hover,
+button:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
   background: #d30320;
 }
 
