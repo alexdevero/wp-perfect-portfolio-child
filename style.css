@@ -148,3 +148,13 @@ html body p code {
 .akismet_comment_form_privacy_notice {
   font-size: 14px;
 }
+
+/* Change styles of Yet Another Stars Rating */
+.yasr-dashicons-visitor-stats {
+  vertical-align: middle !important;
+}
+
+.yasr-total-average-container,
+.yasr-total-average-text {
+  display: none;
+}
