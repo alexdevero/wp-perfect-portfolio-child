@@ -6,155 +6,95 @@ Author: Rara Theme
 Author URI: https://raratheme.com/
 Description: Perfect Portfolio is a clean, elegant and responsive WordPress theme dedicated for portfolio and blogs. Perfect Portfolio theme has wide list of customizable features including front page customizable sections with customizer api and widgets, and many more options. It comes with cross-browser compatibility, mobile friendly design and responsive features.
 Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,e-commerce,portfolio
-Version: 1.0.0.1529570971
-Updated: 2018-06-21 08:49:31
+Version: 1.0.4.1536760189
+Updated: 2018-09-12 13:49:49
 
 */
 
-/* Changes for brand colors */
-a,
-.jp-relatedposts-items .jp-relatedposts-post-a {
-  color: #1c1b1b;
-}
-
-a:hover,
-.main-navigation .nav-menu li:hover > a,
-.main-navigation .nav-menu li.current-menu-item > a,
-.main-navigation .nav-menu li.current_page_item > a,
-.block-title a:hover,
-.entry-title a:hover,
-.entry-meta a:hover,
-.entry-content a,
-.jp-relatedposts-items .jp-relatedposts-post:hover a,
-.jp-relatedposts-items .jp-relatedposts-post-a:hover,
-.nav-links .nav-holder:hover a,
-.widget a:hover,
-.bottom-footer a:hover {
-  color: #d30320;
-}
-
-.entry-content a:hover {
-  text-decoration: underline;
-}
-
-.header-r span.fa.fa-bars:hover,
-a.page-numbers:hover,
-span.page-numbers.current,
-.tags a:hover,
-.back-to-top:hover,
-button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
-  background: #d30320;
-}
-
-a.page-numbers:hover,
-span.page-numbers.current {
-  border-color: #d30320;
-}
-
-.header-r span.fa.fa-bars {
-  transition: all .3s ease;
-}
-
-.header-r span.fa.fa-bars:hover {
-  color: #fff;
-}
-
-/* Change styles of pre */
-html body p pre,
-html body p code,
-html body code {
-  font-size: 15px !important;
-  background-color: #eee;
-  border: 0 !important;
-  white-space: pre-wrap;
-}
-
-html body p pre,
-html body p code {
-  padding: 6px !important;
-}
-
-/* Change widget styles */
 .widget-title {
-  margin-bottom: 8px;
-  font-size: 18px;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
-
 .widget a {
-  display: block;
-  font-size: 16px;
-  line-height: 1.618;
+    font-size: 16px;
+    display: block;
+    line-height: 1.618;
 }
-
-.widget li + li {
-  margin-top: 8px;
+a.page-numbers:hover, span.page-numbers.current {
+    border-color: #d30320;
 }
-
-/* Fix SUMO button */
-.s.u.m.o.me button {
-  letter-spacing: normal;
-}
-
-/* Remove secondary scroll-to-top button */
-#wpfront-scroll-top-container {
-  display: none !important;
-}
-
-/* Styles for crypto QR codes */
-.crypto-qr-image {
-  max-width: 150px;
-}
-
-/* Change for Table of Contents */
-.toc_list a {
-  display: block;
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-/* Change styles for posts */
-.single-post article.post {
-  border: 0;
-}
-
-.entry-meta .posted-on,
-.entry-meta .byline {
-  font-family: Georgia;
-  font-size: 17px;
-}
-
-/* Change style of website branding - blog description */
-.site-branding .site-title,
-.site-branding .site-description {
-  letter-spacing: 1px;
-}
-
 .site-branding .site-title {
-  font-size: 26px;
+    font-size: 26px;
 }
-
 .site-branding .site-description {
-  font-size: 16px;
+    font-size: 16px;
 }
-
+.single-post article.post {
+    border: 0;
+}
+a, .jp-relatedposts-items .jp-relatedposts-post-a {
+    color: #1c1b1b;
+}
+a:hover, .main-navigation .nav-menu li:hover > a, .main-navigation .nav-menu li.current-menu-item > a, .main-navigation .nav-menu li.current_page_item > a, .block-title a:hover, .entry-title a:hover, .entry-meta a:hover, .entry-content a, .jp-relatedposts-items .jp-relatedposts-post:hover a, .jp-relatedposts-items .jp-relatedposts-post-a:hover, .nav-links .nav-holder:hover a, .widget a:hover, .bottom-footer a:hover {
+    color: #d30320;
+}
+.entry-content a:hover {
+    text-decoration: underline;
+}
+.header-r span.fa.fa-bars:hover, a.page-numbers:hover, span.page-numbers.current, .tags a:hover, .back-to-top:hover, button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+    background-color: #d30320;
+}
+.header-r span.fa.fa-bars {
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.header-r span.fa.fa-bars:hover {
+    color: #fff;
+}
+html body p pre, html body p code, html body code {
+    white-space: pre-wrap;
+    font-size: 15px !important;
+    background-color: #eee;
+    border: 0 !important;
+}
+html body p pre, html body p code {
+    padding: 6px !important;
+}
+.widget li + li {
+    margin-top: 8px;
+}
+.s.u.m.o.me button {
+    letter-spacing: normal;
+}
+#wpfront-scroll-top-container {
+    display: none !important;
+}
+.crypto-qr-image {
+    max-width: 150px;
+}
+.toc_list a {
+    font-size: 15px;
+    display: block;
+    line-height: 1.8;
+}
+.entry-meta .posted-on, .entry-meta .byline {
+    font-size: 17px;
+    font-family: Georgia;
+}
+.site-branding .site-title, .site-branding .site-description {
+    letter-spacing: 1px;
+}
 .site-branding .site-title + .site-description {
-  margin-top: 8px;
+    margin-top: 8px;
 }
-
-/* Change styles of Akismet privacy notice */
 .akismet_comment_form_privacy_notice {
-  font-size: 14px;
+    font-size: 14px;
 }
-
-/* Change styles of Yet Another Stars Rating */
 .yasr-dashicons-visitor-stats {
-  vertical-align: middle !important;
+    vertical-align: middle !important;
 }
-
-.yasr-total-average-container,
-.yasr-total-average-text {
-  display: none;
+.yasr-total-average-container, .yasr-total-average-text {
+    display: none;
 }
